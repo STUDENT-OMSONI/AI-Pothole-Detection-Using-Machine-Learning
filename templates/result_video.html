@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Detection Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Video Detection Result</h1>
+
+        <p><strong>Video:</strong> {{ original_name }}</p>
+        <p><strong>Total Frames:</strong> {{ frame_count }}</p>
+        <p><strong>Frames With Potholes:</strong> {{ frames_with_potholes }}</p>
+        <p><strong>Total Detections:</strong> {{ total_detections }}</p>
+        <p><strong>Max Potholes in One Frame:</strong> {{ max_potholes_in_frame }}</p>
+
+        <div class="media-box">
+            <video controls width="100%">
+                <source src="{{ output_video_url }}" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </div>
+
+        <div class="buttons">
+            <a class="btn" href="/download-report/{{ report_name }}">Download Report</a>
+            <a class="btn secondary" href="/">Go Back</a>
+        </div>
+    </div>
+</body>
+</html>
