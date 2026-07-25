@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Image Detection</h1>
+
+    <form action="/predict-image" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Detect Potholes</button>
+    </form>
+
+    <a href="/" class="btn secondary">⬅ Back</a>
+</div>
+
+</body>
+</html>

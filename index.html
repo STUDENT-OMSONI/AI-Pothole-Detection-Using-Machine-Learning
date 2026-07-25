@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pothole Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Pothole Detection System</h1>
+    <p>Select Detection Mode</p>
+
+    <div class="option-container">
+
+        <a href="/image" class="option-card">
+            <h2>📷 Image Detection</h2>
+            <p>Upload an image and detect potholes</p>
+        </a>
+
+        <a href="/video" class="option-card">
+            <h2>🎥 Video Detection</h2>
+            <p>Upload a video and analyze frames</p>
+        </a>
+
+        <a href="/webcam" class="option-card">
+            <h2>📡 Live Webcam</h2>
+            <p>Real-time pothole detection</p>
+        </a>
+
+    </div>
+</div>
+
+</body>
+</html>
