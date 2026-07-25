@@ -1,0 +1,101 @@
+# Virtual Environment
+.venv/
+venv/
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+
+# Model weights and large files
+
+*.pth
+*.ckpt
+*.weights
+!yolov8n.pt
+
+
+# jupyther
+
+# Dataset directories
+hole/
+dataset/
+data/
+
+# Run and output directories
+runs/
+results/
+output/
+predictions/
+
+# Report directories
+IN_cam/
+IN_image/
+IN_vedio/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local development
+.env.local
+.env.*.local
+local/
+temp/
+
+# Windows
+*.lnk
+$RECYCLE.BIN/
+
+# MacOS
+.AppleDouble
+.LSOverride
+._*
