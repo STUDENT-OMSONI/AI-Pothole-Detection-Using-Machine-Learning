@@ -1,0 +1,15 @@
+============================================================
+POTHOLE DETECTION REPORT - IMAGE
+============================================================
+Timestamp: 2026-04-17 11:23:31
+Image: inbox_793761_2f323bfbc712355d8df7b25364df6259_pothole.png11.png
+Potholes Detected: 5
+============================================================
+
+Detection Details:
+------------------------------------------------------------
+Pothole 1: Confidence=87.58%, Width=227px, Height=97px, Box=(56,67) to (283,164)
+Pothole 2: Confidence=77.10%, Width=116px, Height=59px, Box=(45,181) to (161,240)
+Pothole 3: Confidence=55.58%, Width=37px, Height=19px, Box=(104,50) to (141,69)
+Pothole 4: Confidence=54.10%, Width=42px, Height=15px, Box=(151,16) to (193,31)
+Pothole 5: Confidence=43.91%, Width=108px, Height=88px, Box=(259,0) to (367,88)
